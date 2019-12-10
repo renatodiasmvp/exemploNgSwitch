@@ -3,7 +3,7 @@
     </app-revista>
     <app-livro *ngSwitchCase="'livro'">
     </app-livro>
-    <app-filme *ngSwitchCase="'filme'">
+    <app-filme *ngSwitchCase="'filme'" [produto]="produto">
     </app-filme>
     <span *ngSwitchDefault>Produto desconhecido
     </span>
